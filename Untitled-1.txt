@@ -3,7 +3,7 @@
     $uptimeString=0;
      
      
- 
+   $secs = intval($seconds % 60); // dop
      
   $secs = intval($seconds % 60);
   $mins = intval($seconds / 60 % 60);
